@@ -40,7 +40,7 @@ AgroConnect is a full-stack web application designed to bridge the gap between *
 
 | Farmer Dashboard | Officer Dashboard |
 |------------------|-------------------|
-| ![farmer](Screenshots/AdminPage.png) | ![officer](Screenshots/UserPage) |
+| ![farmer](Screenshots/AdminPage.png) | ![officer](Screenshots/UserPage.png) |
 
 ---
 
@@ -69,32 +69,31 @@ AgroConnect/
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/your-username/agroconnect.git
 cd agroconnect
 2. Install Dependencies
 For frontend:
-bash
-Copy
-Edit
+
 cd client
 npm install
 npm start
 For backend:
-bash
-Copy
-Edit
+
 cd server
 npm install
 npm start
 3. Environment Variables
 Create a .env file in the server/ directory:
 
-ini
-Copy
-Edit
+
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
+
+ #to send the emails
+EMAIL_USER=your_emai_address
+EMAIL_PASS=your app password
+
 📚 Future Enhancements
 Real-time chat between farmer and officer
 
