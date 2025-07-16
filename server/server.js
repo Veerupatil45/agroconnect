@@ -37,6 +37,7 @@ const adminRoutes = require('./routes/admin');
 
 const diagnosisRoutes = require('./routes/diagnosis');
 const resourceRoutes=require('./routes/resources');
+const schemeRoutes=require('./routes/scheme');
 
 
 
@@ -49,7 +50,7 @@ app.use('/api/products', productRoutes);
 app.use('/api/crops',cropRoutes); 
 app.use('/api/diagnosis', diagnosisRoutes);
 app.use('/api/resources',resourceRoutes );
-
+app.use('/api/scheme',schemeRoutes);
 
 const orderRoutes = require('./routes/orderRoutes');
 app.use('/api/orders', orderRoutes);
