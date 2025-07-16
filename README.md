@@ -67,11 +67,12 @@ AgroConnect/
 
 # ✅ How to Run Locally
 
-### 1. Clone the Repository
+ 1. Clone the Repository
 
 
 git clone https://github.com/your-username/agroconnect.git
 cd agroconnect
+
 2. Install Dependencies
 For frontend:
 
@@ -83,6 +84,7 @@ For backend:
 cd server
 npm install
 npm start
+
 3. Environment Variables
 Create a .env file in the server/ directory:
 
